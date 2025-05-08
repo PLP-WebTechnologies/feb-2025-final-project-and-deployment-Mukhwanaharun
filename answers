@@ -1,110 +1,109 @@
-<!-- index.html --><!DOCTYPE html><html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Welcome to Harun's Blog</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header>
-    <h1>Harun's Blog</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="blog.html">Blog</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>  <section>
-    <h2>Welcome to Harun's Blog</h2>
-    <p>I'm hoping you guys will enjoy the contents of this website.</p>
-  </section>  <footer>
-    <p>&copy; This is my personal Blog, Kaongo </p>
-  </footer>
-</body>
-</html><!-- blog.html --><!DOCTYPE html><html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Blog Posts</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header>
-    <h1>Kaongo</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="blog.html">Blog</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>  <section>
-    <article>
-      <h2>First Uongo</h2>
-      <p>Tumepanga!</p>
-    </article>
-    <article>
-      <h2>Second Uongo</h2>
-      <p>Tumetenga.</p>
-    </article>
-  </section>  <footer>
-    <p>&copy;Blog Posts</p>
-  </footer>
-</body>
-</html><!-- about.html --><!DOCTYPE html><html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header>
-    <h1>About Me</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="blog.html">Blog</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>  <section>
-    <p>A passionate and results-driven Electrical and Telecommunication Engineer with experience in Core and RAN system. Skilled in user management audits, core network, preventive maintenance, performance reporting, and RAN Optimisation. Knowledge in IMS, CS, PS, and SDM domains. Proficient in network performance analysis, documentation, and coordination with vendors and support teams..</p>
-  </section>  <footer>
-    <p>&copy;Blog Posts</p>
-  </footer>
-</body>
-</html><!-- contact.html --><!DOCTYPE html><html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header>
-    <h1>Contact</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="blog.html">Blog</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>  <section>
-    <form id="contactForm">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required /><label for="email">Email:</label>
-  <input type="email" id="email" name="email" required />
-
-  <label for="message">Message:</label>
-  <textarea id="message" name="message" required></textarea>
-
-  <button type="submit">Send</button>
-</form>
-<p id="formResponse"></p>
-
-  </section>  <script src="script.js"></script>  <footer>
-    <p>&copy; Blog Posts</p>
-  </footer>
-</body>
-</html>
-
-
+<index.html-><!DOCTYPE html><html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Blog</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Blog</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>  <section>
+      <h2>Welcome to My Blog</h2>
+      <p>This is a place to share ideas and stories.</p>
+    </section>  <footer>
+      <p>&copy; 2025 My Blog</p>
+    </footer>
+  </body>
+  </html><!-- blog.html --><!DOCTYPE html><html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Posts</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Blog</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>  <section>
+      <article>
+        <h2>First Post</h2>
+        <p>This is my first blog post. Stay tuned for more!</p>
+      </article>
+      <article>
+        <h2>Another Day, Another Post</h2>
+        <p>Here's some more content for readers.</p>
+      </article>
+    </section>  <footer>
+      <p>&copy; 2025 My Blog</p>
+    </footer>
+  </body>
+  </html><!-- about.html --><!DOCTYPE html><html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>About Me</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>  <section>
+      <p>I am a passionate blogger who loves to write about tech, life, and everything in between.</p>
+    </section>  <footer>
+      <p>&copy; 2025 My Blog</p>
+    </footer>
+  </body>
+  </html><!-- contact.html --><!DOCTYPE html><html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Contact</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>  <section>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><label for="email">Email:</label>
+    <input type="email" id="email" name="email" required />
+  
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+  
+    <button type="submit">Send</button>
+  </form>
+  <p id="formResponse"></p>
+  
+    </section>  <script src="script.js"></script>  <footer>
+      <p>&copy; 2025 My Blog</p>
+    </footer>
+  </body>
+  </html>
+ 
