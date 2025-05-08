@@ -15,10 +15,10 @@
         <a href="contact.html">Contact</a>
       </nav>
     </header>  <section>
-      <h2>Welcome to My Blog</h2>
-      <p>This is a place to share ideas and stories.</p>
+      <h2>Welcome to Harun's Blog</h2>
+      <p>Hello guys, drop those beautiful idias you have.</p>
     </section>  <footer>
-      <p>&copy; 2025 My Blog</p>
+      <p>&copy;Harun's Blog</p>
     </footer>
   </body>
   </html><!-- blog.html --><!DOCTYPE html><html lang="en">
@@ -30,24 +30,24 @@
   </head>
   <body>
     <header>
-      <h1>Blog</h1>
+      <h1>Kaongo</h1>
       <nav>
         <a href="index.html">Home</a>
-        <a href="blog.html">Blog</a>
+        <a href="kaongo.html">Kaongo</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
       </nav>
     </header>  <section>
       <article>
-        <h2>First Post</h2>
-        <p>This is my first blog post. Stay tuned for more!</p>
+        <h2>Uongo 1</h2>
+        <p>Tutatenga</p>
       </article>
       <article>
-        <h2>Another Day, Another Post</h2>
-        <p>Here's some more content for readers.</p>
+        <h2>Tumepanga</h2>
+        <p>In 2027, Tutawanyorosha waende wote Nyumbani, Sisi tumejipanga my frien</p>
       </article>
     </section>  <footer>
-      <p>&copy; 2025 My Blog</p>
+      <p>&copy; Harun's Blog</p>
     </footer>
   </body>
   </html><!-- about.html --><!DOCTYPE html><html lang="en">
@@ -67,7 +67,10 @@
         <a href="contact.html">Contact</a>
       </nav>
     </header>  <section>
-      <p>I am a passionate blogger who loves to write about tech, life, and everything in between.</p>
+      <p>A passionate and results-driven Electrical and Telecommunication Engineer with experience in Core and RAN system. <br>
+        Skilled in user management audits, core network, preventive maintenance, performance reporting, and RAN Optimisation. 
+        <br>Knowledge in IMS, CS, PS, and SDM domains.<br>
+        Proficient in network performance analysis, documentation, and coordination with vendors and support teams.</p>
     </section>  <footer>
       <p>&copy; 2025 My Blog</p>
     </footer>
@@ -106,4 +109,19 @@
     </footer>
   </body>
   </html>
- 
+  /* styles.css */ body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f9f9f9; }
+
+  header { background-color: #333; color: white; padding: 1em; }
+  
+  nav a { color: white; margin-right: 1em; text-decoration: none; }
+  
+  section { padding: 1em; }
+  
+  footer { background-color: #333; color: white; text-align: center; padding: 1em; position: relative; bottom: 0; width: 100%; }
+  
+  @media (max-width: 600px) { nav a { display: block; margin-bottom: 0.5em; } }
+  /* script.js */ document.getElementById("contactForm").addEventListener("submit", function (e) { e.preventDefault(); const name = document.getElementById("name").value; const email = document.getElementById("email").value; const message = document.getElementById("message").value;
+
+if (!email.includes("@")) { document.getElementById("formResponse").textContent = "Please enter a valid email address."; return; }
+
+document.getElementById("formResponse").textContent = Thanks, ${name}. Your message has been sent!; document.getElementById("contactForm").reset(); });
